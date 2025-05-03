@@ -11,7 +11,7 @@ def test_migracion():
         check=True,
     )
 
-    if not os.path.exists("data/output/results.tsv"):
+    if not os.path.exists("data/output/wordcount.tsv"):
         raise FileNotFoundError("Archivo results no existe.")
 
     results = {}
